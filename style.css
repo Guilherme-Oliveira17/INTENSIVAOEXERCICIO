@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.initial, .textInitial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.xinitial{
+    gap: 2rem;
+}
+.textInitial{
+    font-family: "Mulish", sans-serif;
+}
+
+.buttom-down{
+     margin: 3rem 0 5rem;
+}
+
+
+.textInitial h1{
+    font-weight: 900;
+    color: #B52184;
+    font-size: 2rem;
+}
+.textInitial p{
+    color: #312D64;
+    font-size: 1.25rem; 
+}
+
+.cards{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,49,147,1) 0%, rgba(52,49,147,0.9640231092436975) 0%, rgba(52,49,147,1) 0%, rgba(52,49,147,1) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 4.5rem;
+    padding: 4.3rem 4rem 4.3rem;
+}
+
+.card{
+    background: white;
+    border-radius: 1rem;
+    display: grid;
+    padding: 2.6rem;
+    gap: 1rem;
+  
+}
+
+h2{
+    font-family: "Mulish", sans-serif;
+    font-size: 1.83rem;
+    color: #B52184;
+}
+
+.card p{
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+    color: #312D64;
+}
+
+legend{
+    font-family: "Mulish", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #B52184;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.form-medias{
+    width: 100%;
+    height: 100%;
+}
+
+.forms{
+    gap: 1.5rem;
+    padding: 2.3rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    width: 100%;
+    }
+
+fieldset{
+    border: none;
+}
+
+.input-wrapper input, .input-wrapper textarea{
+    display: flex;
+    flex-direction: column;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #312D64;
+
+}
+
+
+.input-wrapper input {
+    padding-left: 2rem;
+}
+
+
+.input-wrapper textarea{
+    height: 10rem;
+}
+
+
+.button{
+    border: none;
+    padding: 0.9rem;
+    border-radius: 1rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(49,75,147,1) 0%, rgba(52,49,147,0.9640231092436975) 0%, rgba(52,49,147,1) 0%, rgba(52,49,147,1) 100%);
+    font-family: "Mulish", sans-serif;
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: white;
+}
+
+#name{
+    background: url(assets/Vector.png) no-repeat scroll 0.5rem;
+}
+
+#email-personal{
+    background: url(assets/Vector1.svg) no-repeat scroll 0.5rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.contact img{
+    width: 40rem;
+    height: 40rem;
+}
+
+.baseboard{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(49,75,147,1) 0%, rgba(52,49,147,0.9640231092436975) 0%, rgba(52,49,147,1) 0%, rgba(52,49,147,1) 100%);  
+    width: 100%;
+    height: 3rem;
+}
+
+.baseboard p{
+    font-family: "Mulish", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    padding-top: 0.8rem;
+    text-align: center;
+}
