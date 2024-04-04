@@ -16,7 +16,7 @@
     font-family: "Mulish", sans-serif;
 }
 
-.buttom-down{
+.down{
      margin: 3rem 0 5rem;
 }
 
@@ -37,6 +37,7 @@
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     gap: 4.5rem;
     padding: 4.3rem 4rem 4.3rem;
 }
@@ -71,18 +72,13 @@ legend{
     margin-bottom: 1rem;
 }
 
-.form-medias{
-    width: 100%;
-    height: 100%;
-}
-
 .forms{
     gap: 1.5rem;
     padding: 2.3rem;
-    margin-left: 2rem;
-    margin-top: 4rem;
-    width: 100%;
-    }
+    width: 22rem;
+    text-align: center;
+    margin-left: 5rem;
+}
 
 fieldset{
     border: none;
@@ -137,11 +133,6 @@ fieldset{
 
 .contact{
     display: flex;
-    justify-content: space-between;
-}
-.contact img{
-    width: 40rem;
-    height: 40rem;
 }
 
 .baseboard{
@@ -157,4 +148,57 @@ fieldset{
     color: white;
     padding-top: 0.8rem;
     text-align: center;
+}
+
+@media (min-width: 770px) {
+    .initial{
+        flex-direction: row-reverse;
+        max-width: 100%;
+        justify-content: space-between;
+        max-height: 90rem;
+        padding: 0rem 4rem 2rem;
+       
+    }
+    
+    .textInitial{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 15rem;
+    }
+
+    .textInitial h1{
+        font-size: 2.5rem;
+    }
+
+    .textInitial p{
+        font-size: 1.5rem;
+    }
+
+    .textInitial h1 p{
+   
+        align-items: center;
+    }
+
+    .down{
+        margin-top: 12rem;
+    }
+
+    .cards{
+        flex-direction: row;
+    }
+
+    .contact{
+        background: url(assets/image11976.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .forms{
+        width: 37.18rem;
+    }
+
+    .button{
+        display: flex;
+    }
+
 }
